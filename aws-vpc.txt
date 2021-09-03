@@ -1,0 +1,6 @@
+VPC
+VPC span across multiple AZs but not multiple regions.
+one subnet should be in one AZ it should not span more than one AZ.
+one subnet should have one route table not more than one.
+one subnet should have one NACL not more than one NACL.
+multiple subnets can have same route table and NACL.
